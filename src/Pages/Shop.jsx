@@ -1,0 +1,31 @@
+import React from "react";
+import { TopNav } from "../Components/TopNav";
+import "./Shop.css";
+import ShopItem from "../Components/ShopItem";
+function Shop() {
+  return (
+    <>
+      <TopNav />
+      <div className="parent">
+        <div className="shop-items">
+          <ShopItem
+            picture="t-black.jpg"
+            description="Black Training T-Shirt"
+            link="https://buy.stripe.com/test_3csaI45Qd1c62A028c"
+          />
+          <ShopItem
+            picture="t-maroon.jpg"
+            description="Maroon Training T-Shirt"
+            link="https://buy.stripe.com/test_9AQ3fCa6t2ga8YobIL"
+          />
+          <ShopItem
+            picture="custom-jersey.jpg"
+            description="Custom Jersey"
+            link="https://buy.stripe.com/test_8wM5nKbax9ICdeEdQS"
+          />
+        </div>
+      </div>
+    </>
+  );
+}
+export default Shop;

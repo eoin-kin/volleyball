@@ -1,0 +1,10 @@
+.hero-cont {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.hero-cont img {
+  width: 100%;
+  left: 0;
+  height: 30rem;
+}

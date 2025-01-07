@@ -1,0 +1,10 @@
+.parent {
+  background-color: var(--primary);
+  height: 100vh;
+}
+.shop-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 2rem;
+}
