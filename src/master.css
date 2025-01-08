@@ -1,3 +1,19 @@
 :root {
-  --primary: #a70150;
+  --maroon: #a70150;
+}
+.bottom-nav {
+  background-color: aliceblue;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem;
+}
+.bottom-nav p {
+  font-size: xx-large;
+  color: var(--maroon);
+  font-family: "Aldrich";
+  margin-left: 30%;
+  padding-right: 2rem;
+  margin-bottom: 0;
 }
