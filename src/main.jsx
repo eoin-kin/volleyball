@@ -7,6 +7,7 @@ import Shop from "./Pages/Shop.jsx";
 import Storefront from "./Pages/Storefront.jsx";
 import "./master.css";
 import Players from "./Pages/Players.jsx";
+import About from "./Pages/About.jsx";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,7 @@ const router = createBrowserRouter([
   },
   { path: "/shop/order", element: <Storefront /> },
   { path: "/players", element: <Players /> },
+  { path: "/about", element: <About /> },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

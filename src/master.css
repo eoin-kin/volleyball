@@ -1,13 +1,19 @@
 :root {
   --maroon: #a70150;
+  --pink: #d27ea6;
+  --shadow-bottom: 0.5rem solid rgba(219, 214, 214, 0.534);
+  --shadow-right: 0.25rem solid rgba(219, 214, 214, 0.534);
+  --white: rgb(248, 249, 250);
 }
 .bottom-nav {
-  background-color: aliceblue;
+  background-color: var(--white);
   width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 1rem;
+  position: sticky;
+  bottom: 0;
 }
 .bottom-nav p {
   font-size: xx-large;

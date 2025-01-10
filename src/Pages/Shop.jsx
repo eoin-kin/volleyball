@@ -2,6 +2,7 @@ import React from "react";
 import { TopNav } from "../Components/TopNav";
 import "./Shop.css";
 import ShopItem from "../Components/ShopItem";
+import BottomBar from "../Components/BottomBar";
 function Shop() {
   return (
     <>
@@ -25,6 +26,8 @@ function Shop() {
           />
         </div>
       </div>
+
+      <BottomBar />
     </>
   );
 }

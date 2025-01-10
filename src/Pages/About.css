@@ -1,0 +1,25 @@
+.about-parent {
+  background-color: var(--maroon);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.title-bg img {
+  width: 100%;
+}
+.text-bg {
+  padding: 4rem;
+  background-color: var(--white);
+  margin-right: 20%;
+  margin-left: 20%;
+  border-radius: 2rem;
+  box-shadow: 0.5rem 0.5rem rgba(27, 27, 27, 0.534);
+}
+.text-bg p {
+  font-family: "Aldrich";
+  font-size: large;
+  letter-spacing: 0.2rem;
+}

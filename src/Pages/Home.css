@@ -17,13 +17,13 @@
 }
 
 .follow-us h1 {
-  color: aliceblue;
+  color: var(--white);
   padding: 1rem;
   font-family: "Aldrich";
 }
 
 .contact-card {
-  background-color: aliceblue;
+  background-color: var(--white);
   width: 50%;
   padding: 2rem;
   display: flex;
