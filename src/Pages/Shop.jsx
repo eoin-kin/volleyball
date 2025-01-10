@@ -9,17 +9,17 @@ function Shop() {
       <div className="parent">
         <div className="shop-items">
           <ShopItem
-            picture="t-black.jpg"
+            picture="t-black.webp"
             description="Black Training T-Shirt"
             link="https://buy.stripe.com/test_3csaI45Qd1c62A028c"
           />
           <ShopItem
-            picture="t-maroon.jpg"
+            picture="t-maroon.webp"
             description="Maroon Training T-Shirt"
             link="https://buy.stripe.com/test_9AQ3fCa6t2ga8YobIL"
           />
           <ShopItem
-            picture="custom-jersey.jpg"
+            picture="custom-jersey.webp"
             description="Custom Jersey"
             link="https://buy.stripe.com/test_8wM5nKbax9ICdeEdQS"
           />

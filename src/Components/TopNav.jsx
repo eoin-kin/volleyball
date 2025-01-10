@@ -6,7 +6,7 @@ export const TopNav = () => {
     <Navbar bg="light">
       <Container>
         <Navbar.Brand href="/">
-          <img src="/logo.jpg" style={{ height: "3rem" }} /> University of
+          <img src="/logo.webp" style={{ height: "3rem" }} /> University of
           Galway Volleyball Club
         </Navbar.Brand>
         <Nav className="justify-content-end">

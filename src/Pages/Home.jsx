@@ -9,7 +9,7 @@ function Home() {
     <>
       <TopNav />
       <Container fluid className="hero-cont">
-        <img src="hero-section.png" />
+        <img src="hero-section.webp" />
       </Container>
       <div className="follow-us">
         <h1>Follow our journey</h1>
@@ -22,7 +22,7 @@ function Home() {
         </div>
       </div>
       <Container fluid className="hero-cont">
-        <img src="Raising the Level.jpg" />
+        <img src="Raising the Level.webp" />
       </Container>
       <BottomBar />
     </>

@@ -30,7 +30,7 @@ function Storefront() {
             </Form>
             <div className="pic_and_title">
               <h1>Black Training T-Shirt</h1>
-              <img src="/t-black.jpg" />
+              <img src="/t-black.webp" />
             </div>
           </div>
           <br />
@@ -52,7 +52,7 @@ function Storefront() {
             </Form>
             <div className="pic_and_title">
               <h1>Maroon Training T-Shirt</h1>
-              <img src="/t-maroon.jpg" />
+              <img src="/t-maroon.webp" />
             </div>
           </div>
           <br />
@@ -68,7 +68,7 @@ function Storefront() {
             </Form>
             <div className="pic_and_title">
               <h1>Custom Jersey</h1>
-              <img src="/custom-jersey.jpg" />
+              <img src="/custom-jersey.webp" />
             </div>
           </div>
           <br />

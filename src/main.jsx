@@ -6,6 +6,7 @@ import Home from "./Pages/Home.jsx";
 import Shop from "./Pages/Shop.jsx";
 import Storefront from "./Pages/Storefront.jsx";
 import "./master.css";
+import Players from "./Pages/Players.jsx";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,7 @@ const router = createBrowserRouter([
     element: <Shop />,
   },
   { path: "/shop/order", element: <Storefront /> },
+  { path: "/players", element: <Players /> },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
