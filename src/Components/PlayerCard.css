@@ -1,0 +1,108 @@
+.shiny-silver-box {
+  position: relative;
+  width: 12rem;
+  height: 20rem;
+  background: linear-gradient(
+    135deg,
+    #b0b0b0,
+    #808080,
+    #ffffff,
+    #707070,
+    #b0b0b0
+  );
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2),
+    inset 0 2px 2px rgba(255, 255, 255, 0.8);
+  overflow: hidden; /* Ensures the shine doesn't overflow outside */
+  caret-color: transparent;
+  justify-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shiny-silver-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 1rem;
+  border: 4px solid transparent;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.6) 0%,
+    rgba(255, 255, 255, 0) 30%,
+    rgba(255, 255, 255, 0) 70%,
+    rgba(255, 255, 255, 0.6) 100%
+  );
+  background-size: 200% 200%;
+  animation: smooth-shine-around 6s ease-in-out infinite;
+  pointer-events: none;
+  z-index: 1;
+}
+.content {
+  z-index: 2;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Keep centered alignment */
+  align-items: center;
+  height: 100%;
+}
+
+/* Centered Image */
+.content img {
+  width: 10rem;
+  height: 18rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  border: solid 3px var(--maroon);
+}
+
+/* Overlay Text */
+.overlay-text {
+  position: absolute;
+  top: 80%;
+  left: 5rem;
+  width: 8rem;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+
+.overlay-text h2 {
+  font-size: 1rem;
+  background-color: var(--pink);
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  font-family: "Aldrich";
+}
+
+.overlay-text p {
+  font-size: 1rem;
+  background-color: var(--pink);
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  font-family: "Aldrich";
+}
+/* Animation Keyframes */
+@keyframes smooth-shine-around {
+  0% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 50% 0%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  75% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

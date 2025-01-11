@@ -22,6 +22,8 @@ function About() {
             standard and are one of most prolific college teams in recent years!
           </p>
         </div>
+        <br />
+        <br />
         <div className="title-bg">
           <img src="/Training-Times.webp" />
         </div>

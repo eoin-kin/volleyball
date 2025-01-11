@@ -1,14 +1,17 @@
 import React from "react";
 import { TopNav } from "../Components/TopNav";
 import PlayerCard from "../Components/PlayerCard";
-
+import "./Players.css";
 function Players() {
   return (
     <>
       <TopNav />
-      <div style={{ justifySelf: "center" }}>
-        <PlayerCard />
-      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <PlayerCard picture="/eoin.jpg" />
     </>
   );
 }
