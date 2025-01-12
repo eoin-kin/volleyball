@@ -1,18 +1,18 @@
-import { Container } from "react-bootstrap";
+import { Container, Image } from "react-bootstrap";
 import { TopNav } from "../Components/TopNav";
 import "./Home.css";
 import { SocialIcon } from "react-social-icons";
 import BottomBar from "../Components/BottomBar";
 function Home() {
-  console.log("Home component rendered");
   return (
     <>
       <TopNav />
-      <Container fluid className="hero-cont">
-        <img src="hero-section.webp" />
-      </Container>
+
+      <Image fluid src="/hero-section.webp" />
+
       <div className="follow-us">
         <h1>Follow our journey</h1>
+        <br />
         <div className="contact-card">
           <SocialIcon url="whatsapp.com" bgColor="#a70150" />
 
@@ -21,9 +21,7 @@ function Home() {
           <SocialIcon url="youtube.com" bgColor="#a70150" />
         </div>
       </div>
-      <Container fluid className="hero-cont">
-        <img src="Raising the Level.webp" />
-      </Container>
+      <Image fluid src="/Raising the Level.webp" />
       <BottomBar />
     </>
   );

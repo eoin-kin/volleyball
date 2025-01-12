@@ -9,7 +9,7 @@ function PlayerCard(props) {
             <img src="/eoin.jpg" />
             <div class="overlay-text">
               <h2>Eoin Kinsella</h2>
-              <p>4th Year Astrophysics</p>
+              <p>Setter</p>
             </div>
           </div>
         </div>

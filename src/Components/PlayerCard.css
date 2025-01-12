@@ -13,7 +13,7 @@
   border-radius: 1rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2),
     inset 0 2px 2px rgba(255, 255, 255, 0.8);
-  overflow: hidden; /* Ensures the shine doesn't overflow outside */
+  overflow: hidden;
   caret-color: transparent;
   justify-self: center;
   display: flex;
@@ -47,21 +47,19 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Keep centered alignment */
+  justify-content: center;
   align-items: center;
   height: 100%;
 }
 
-/* Centered Image */
 .content img {
   width: 10rem;
   height: 18rem;
   border-radius: 1rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-  border: solid 3px var(--maroon);
+  border: solid 3px black;
 }
 
-/* Overlay Text */
 .overlay-text {
   position: absolute;
   top: 80%;
@@ -75,20 +73,22 @@
 
 .overlay-text h2 {
   font-size: 1rem;
-  background-color: var(--pink);
+  background-color: var(--maroon);
   border-radius: 1rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  border: solid 3px black;
   font-family: "Aldrich";
 }
 
 .overlay-text p {
   font-size: 1rem;
-  background-color: var(--pink);
+  background-color: var(--maroon);
   border-radius: 1rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  border: solid 3px black;
   font-family: "Aldrich";
 }
-/* Animation Keyframes */
+
 @keyframes smooth-shine-around {
   0% {
     background-position: 0% 50%;
