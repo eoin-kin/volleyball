@@ -13,8 +13,8 @@ function About() {
         <br />
         <div className="text-bg">
           <p>
-            Welcome to the University of Galway Volleyball club! The University
-            Galway Volleyball club has been an integral part of Galway
+            Welcome to the University of Galway Volleyball Club! The University
+            Galway Volleyball Club has been an integral part of Galway
             University since 1975 and has been taking part in Intervarsity
             competitions since 1976. International students make up a large
             portion of the Men's and Women's teams each year, mixed with a core

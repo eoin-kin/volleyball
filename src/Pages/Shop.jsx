@@ -14,11 +14,13 @@ function Shop() {
             description="Black Training T-Shirt"
             link="https://buy.stripe.com/test_3csaI45Qd1c62A028c"
           />
+          <br />
           <ShopItem
             picture="t-maroon.webp"
             description="Maroon Training T-Shirt"
             link="https://buy.stripe.com/test_9AQ3fCa6t2ga8YobIL"
           />
+          <br />
           <ShopItem
             picture="custom-jersey.webp"
             description="Custom Jersey"
@@ -26,8 +28,6 @@ function Shop() {
           />
         </div>
       </div>
-
-      <BottomBar />
     </>
   );
 }

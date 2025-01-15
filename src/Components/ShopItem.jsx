@@ -3,7 +3,7 @@ import { Button, Card } from "react-bootstrap";
 function ShopItem(props) {
   return (
     <>
-      <Card style={{ width: "21rem" }} className="shadow">
+      <Card style={{ width: "90vw" }} className="shadow">
         <Card.Img variant="top" src={props.picture} />
         <Card.Body>
           <Card.Title>{props.description}</Card.Title>
