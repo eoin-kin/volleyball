@@ -13,22 +13,15 @@
 
 .contact-card {
   background-color: var(--white);
-  width: 50%;
-  padding: 2rem;
+  width: 70%;
+  height: 20vh;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
   margin-left: 20%;
   margin-right: 20%;
   border-radius: 2rem;
   border-bottom: 0.5rem solid rgb(154, 154, 154);
   border-right: 0.25rem solid rgb(154, 154, 154);
-}
-
-.contact-card ul {
-  list-style: none;
-}
-.contact-card ul li {
-  padding: 1rem;
-  float: left;
 }

@@ -1,12 +1,13 @@
 import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-
+import "./TopNav.css";
 export const TopNav = () => {
   return (
     <Navbar collapseOnSelect expand="sm" bg="light">
       <Container>
-        <Navbar.Brand href="/">
-          <img src="/logo.webp" style={{ height: "3rem" }} />
+        <Navbar.Brand href="/" className="brand-text">
+          <img src="/logo.webp" style={{ height: "10vh" }} /> University of
+          Galway Volleyball
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse

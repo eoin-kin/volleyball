@@ -1,0 +1,10 @@
+.sign-up {
+  font-family: "Aldrich";
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .sign-up {
+    display: none;
+  }
+}

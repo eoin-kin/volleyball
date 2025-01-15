@@ -21,6 +21,7 @@ function Home() {
           <SocialIcon url="youtube.com" bgColor="#a70150" />
         </div>
       </div>
+
       <Image fluid src="/Raising the Level.webp" />
       <BottomBar />
     </>
