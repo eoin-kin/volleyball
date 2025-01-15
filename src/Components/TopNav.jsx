@@ -6,8 +6,8 @@ export const TopNav = () => {
     <Navbar collapseOnSelect expand="sm" bg="light">
       <Container>
         <Navbar.Brand href="/" className="brand-text">
-          <img src="/logo.webp" style={{ height: "10vh" }} /> University of
-          Galway Volleyball
+          <img src="/logo.webp" className="pidge" /> University of Galway
+          Volleyball
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse

@@ -1,0 +1,13 @@
+.follow-socials {
+  background-color: var(--maroon);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2rem;
+  height: 55vh;
+}
+.follow-socials h1 {
+  color: var(--white);
+  padding: 1rem;
+  font-family: "Aldrich";
+}

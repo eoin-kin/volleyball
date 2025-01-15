@@ -10,7 +10,7 @@ function Contact() {
     <>
       <TopNav />
       <Image fluid src="Contact.webp" />
-      <div className="follow-us">
+      <div className="follow-socials">
         <h1>Follow our Socials</h1>
         <br />
         <div className="contact-card">
