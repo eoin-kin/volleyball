@@ -8,6 +8,7 @@ import Storefront from "./Pages/Storefront.jsx";
 import "./master.css";
 import Players from "./Pages/Players.jsx";
 import About from "./Pages/About.jsx";
+import Contact from "./Pages/Contact.jsx";
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,7 @@ const router = createBrowserRouter([
   { path: "/shop/order", element: <Storefront /> },
   { path: "/players", element: <Players /> },
   { path: "/about", element: <About /> },
+  { path: "contact", element: <Contact /> },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
