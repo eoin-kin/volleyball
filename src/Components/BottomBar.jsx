@@ -15,6 +15,7 @@ function BottomBar() {
         <Button
           variant="light"
           size="lg"
+          href="https://auth.yourspace.universityofgalway.ie/"
           style={{
             backgroundColor: "#a70150",
             color: "rgb(248, 249, 250)",
