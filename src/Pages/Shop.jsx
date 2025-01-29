@@ -12,19 +12,19 @@ function Shop() {
           <ShopItem
             picture="t-black.webp"
             description="Black Training T-Shirt"
-            link="https://buy.stripe.com/test_fZe01Y6Ec2ivaGI6oq"
+            link="https://buy.stripe.com/fZe02YfcT4aV08g7ss"
           />
           <br />
           <ShopItem
             picture="t-maroon.webp"
             description="Maroon Training T-Shirt"
-            link="https://buy.stripe.com/test_28o5migeM6yL7uweUU"
+            link="https://buy.stripe.com/28o9Dyc0HazjaMU145"
           />
           <br />
           <ShopItem
             picture="custom-jersey.webp"
             description="Custom Jersey"
-            link="https://buy.stripe.com/test_aEU3ea3s0aP15mocMN"
+            link="https://buy.stripe.com/8wM02Y0hZ36R5sAaEH"
           />
         </div>
       </div>
