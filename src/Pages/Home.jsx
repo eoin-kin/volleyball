@@ -8,7 +8,7 @@ function Home() {
     <>
       <TopNav />
 
-      <Image fluid src="/hero-section.webp" />
+      <Image fluid src="/hero-section.webp" loading="lazy" />
 
       <div className="follow-us">
         <h1>Follow our journey</h1>
@@ -34,7 +34,7 @@ function Home() {
         </div>
       </div>
 
-      <Image fluid src="/Raising the Level.webp" />
+      <Image fluid src="/Raising the Level.webp" loading="lazy" />
       <BottomBar />
     </>
   );

@@ -8,7 +8,7 @@ function About() {
       <TopNav />
       <div className="about-parent">
         <div className="title-bg">
-          <img src="/about-banner.webp" />
+          <img src="/about-banner.webp" loading="lazy" />
         </div>
         <br />
         <div className="text-bg">
@@ -25,7 +25,7 @@ function About() {
         <br />
         <br />
         <div className="title-bg">
-          <img src="/Training-Times.webp" />
+          <img src="/Training-Times.webp" loading="lazy" />
         </div>
       </div>
       <BottomBar />

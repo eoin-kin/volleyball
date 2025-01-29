@@ -1,7 +1,6 @@
 :root {
   --maroon: #a70150;
   --pink: #d27ea6;
-  --shadow-bottom: 0.5rem solid rgba(219, 214, 214, 0.534);
-  --shadow-right: 0.25rem solid rgba(219, 214, 214, 0.534);
+
   --white: rgb(248, 249, 250);
 }
