@@ -1,6 +1,7 @@
 .parent {
   background-color: var(--maroon);
   height: fit-content;
+  justify-items: center;
 }
 .shop-items {
   display: flex;
@@ -8,4 +9,17 @@
   justify-content: space-around;
   align-items: center;
   padding-top: 2rem;
+}
+
+.parent h1 {
+  color: var(--white);
+  text-decoration: underline;
+  padding: 1rem;
+  font-family: "Aldrich";
+}
+
+.parent p {
+  color: var(--white);
+
+  font-family: "Aldrich";
 }

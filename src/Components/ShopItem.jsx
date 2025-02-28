@@ -1,8 +1,8 @@
 import { Button, Card } from "react-bootstrap";
 
 function ShopItem(props) {
-  return (
-    <>
+  if (props.active) {
+    return (
       <Card style={{ width: "90vw" }} className="shadow">
         <Card.Img variant="top" src={props.picture} />
         <Card.Body>
@@ -12,8 +12,17 @@ function ShopItem(props) {
           </Button>
         </Card.Body>
       </Card>
-    </>
-  );
+    );
+  } else {
+    return (
+      <Card style={{ width: "90vw" }} className="shadow">
+        <Card.Img variant="top" src={props.picture} />
+        <Card.Body>
+          <Card.Title>{props.description}</Card.Title>
+        </Card.Body>
+      </Card>
+    );
+  }
 }
 
 export default ShopItem;

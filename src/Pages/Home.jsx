@@ -7,7 +7,6 @@ function Home() {
   return (
     <>
       <TopNav />
-
       <Image
         fluid
         src="/hero-mobile.webp"
@@ -39,7 +38,6 @@ function Home() {
           />
         </div>
       </div>
-
       <Image fluid src="/Raising the Level.webp" loading="lazy" />
       <BottomBar />
     </>
